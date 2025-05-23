@@ -1,0 +1,36 @@
+{
+  "name": "tpp-lib-refresh",
+  "version": "2.0.0",
+  "description": "Angular library for handling token refresh functionality",
+  "author": "dpingoztpp",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpingoztpp/tpp-lib-refresh"
+  },
+  "keywords": [
+    "angular",
+    "typescript",
+    "token",
+    "refresh"
+  ],
+  "dependencies": {
+    "tslib": "^2.6.2"
+  },
+  "peerDependencies": {
+    "@angular/common": "^19.0.0",
+    "@angular/core": "^19.0.0"
+  },
+  "module": "fesm2022/tpp-lib-refresh.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./fesm2022/tpp-lib-refresh.mjs"
+    }
+  },
+  "sideEffects": false
+}
